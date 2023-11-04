@@ -1,0 +1,135 @@
+@import url('https://fonts.google.com/specimen/Autour+One');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: skyblue; /* Change the background color to light grayish */
+  background-image: url("WhatsApp Image 2023-10-29 at 11.02.52_82d48385.jpg");
+}
+
+section nav{
+  bottom: 90%;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 40px;
+  /*background: #fff;*/
+  position: fixed;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(223, 199, 199, 0.914);
+  font-size: 25px;
+}
+
+section nav .logo img{
+  width: 70%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+section nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 39%;
+  padding: 0;
+}
+
+section nav li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+section nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+section nav li a:hover{
+  color: deepskyblue;
+}
+
+/*section nav .social_icon i{
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+  color: aquamarine;
+  cursor: pointer;
+}*/
+
+
+/*.banner {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner h1 {
+  margin: 0;
+}*/
+
+.card {
+  border: 4px solid #000;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 500px;
+  margin: 100px auto;
+  background-color: #dfcbb4; /* Change the card background color to light blue */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+  padding: 5px;
+  text-align: center;
+}
+
+.card h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.card p {
+  text-align: center;
+  margin: 0;
+}
+
+/*.card a {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  margin: 10px auto;
+}*/
+
+
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: grey;
+  font-weight: 600;
+  margin-top: 20px;
+}

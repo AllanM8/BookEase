@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  /* Setting background properties for the body */
+  background: url('WhatsApp Image 2023-10-29 at 11.03.16_ebfe0a4e.jpg') no-repeat;
+  background-color: skyblue;
+  background-size: cover;
+  background-position: center;
+  /* other styles */
+}
+
+section nav{
+bottom: 90%;
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 0 40px;
+/*background: #fff;*/
+position: fixed;
+left: 0;
+z-index: 100;
+background-color: rgba(223, 199, 199, 0.914);
+font-size: 25px;
+}
+
+section nav .logo img{
+  width: 70%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+section nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 39%;
+  padding: 0;
+}
+
+section nav li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+section nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+section nav li a:hover{
+  color: deepskyblue;
+}
+
+.card { 
+  margin-right: 10px; 
+  margin-left: 10px;
+  width: 500px; 
+  box-shadow: 10px 10px 10px rgba(129, 124, 124, 0.2); 
+  height: 300px; 
+  border-radius: 5px; 
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.2); 
+  padding: 20px; 
+  text-align: center;
+  align-content: center;
+}
+  
+.card:hover {
+  transform: scale(1.05); /* Hover effect to scale up the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  
+.card-title {
+  font-size: 1.9rem; /* Slightly larger title */
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.card-text {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+  
+.card-body {
+  padding: 20px;
+}
+  
+.card:first-child {
+  margin-left: 0; /* Remove left margin for the first card */
+}
+  

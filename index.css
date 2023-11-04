@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    background-color: #BDCDD6;
+    margin-top: 30px;
+    box-shadow: aqua;
+}
+.form{
+    width: 400px;
+    border-radius: 8px;
+    background-color: #6096B4;
+    /*height: fit-content;*/
+    padding: 5px  10px;
+}
+label{
+    display: block;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+input{
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+#submit-btn{
+    border: 25px;
+    border-color: blue;
+    background-color: #EEE9DA;
+    width: 40%;
+    text-align: center;
+    padding: 10px ;
+    color: #6096B4;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 9px 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#submit-btn1{
+    border: 25px;
+    border-color: blue;
+    background-color: blueviolet;
+    width: 40%;
+    text-align: center;
+    padding: 10px ;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 9px 0;
+    border-radius: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-10%);
+    transform: translateX(75%);
+}
+p {
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: cover;
+    background-position:  center;
+
+}
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(255, 255, 255, 0.3); /* Adjust the opacity to make it more or less transparent */
+    color: #000;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.6); /* Adjust the opacity for focus state */
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity to make it more or less transparent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #fff;
+}
